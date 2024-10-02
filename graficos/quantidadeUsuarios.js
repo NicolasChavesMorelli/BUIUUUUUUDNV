@@ -1,7 +1,7 @@
 import { getCSS, tickConfig } from "./common.js";
 
 async function quantidadeUsuarios() {
-    const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/redes-favoritas.json';
+    const url = 'https://raw.githubusercontent.com/NicolasChavesMorelli/BUIUUUUUUDNV/refs/heads/main/graficos2.json';
     const rest = await fetch(url);
     const dados = await rest.json();
 
